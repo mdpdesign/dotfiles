@@ -78,3 +78,6 @@ fi
 # https://code.visualstudio.com/docs/terminal/shell-integration
 # Not working with Powerlevel 10k
 # [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code -locate-shell-integration-path zsh)"
+
+# Pyenv
+eval "$(pyenv init -)"
